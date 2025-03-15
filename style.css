@@ -1,0 +1,70 @@
+.micro-5-regular {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    font-size: 40px;
+    color: #AB886D;
+    margin: 0px;
+    margin-left: 12px;
+
+    
+    
+
+  }
+  
+.header {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    position: fixed;
+    width: 99%;
+    background-color: wheat;
+
+}
+
+.header > img {
+    margin-left: 10px;
+}
+
+
+body {
+    background-color: #AB886D;
+}
+
+.main-content {
+     position: relative;
+    top: 70px;
+    height: 100vh;
+    display: grid;
+}
+
+
+
+
+@media (max-width: 460px) {
+    .header {
+        text-align: center;
+    }
+
+    .main-content{
+        top: 100px;
+        
+    }
+}
+
+
+@media (max-width: 380px) {
+
+    .main-content{
+        top: 130px;
+        
+    }
+}
+
+
+
+
+
+
